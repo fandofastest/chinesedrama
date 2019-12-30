@@ -86,16 +86,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
         android:tint="@android:color/white"
         app:backgroundTint="@color/colorPrimary"
         app:elevation="2dp"
         app:fabSize="normal"
         app:rippleColor="@color/deep_orange_400"
-        app:srcCompat="@drawable/outline_live_tv_24"
-        android:focusable="true" />
+        app:srcCompat="@drawable/outline_live_tv_24" />
 
     <!--<android.support.design.widget.BottomNavigationView-->
         <!--android:id="@+id/navigation"-->

@@ -1,8 +1,8 @@
 <resources>
 
-    <string name="app_name">KD - Korean Drama </string>
+    <string name="app_name">CD - Chinese Drama </string>
     <!--app_title for main navigation & home title-->
-    <string name="app_title">KD - Korean Drama - Watch Drama</string>
+    <string name="app_title">CD - Chinese Drama - Watch Drama</string>
     <string name="app_version">1.0.0</string>
     <string name="contact_email">admin@kdrama.com</string>
     <string name="copyright_text">Copyright @ KD - Korean Drama \nAll right reserved</string>
