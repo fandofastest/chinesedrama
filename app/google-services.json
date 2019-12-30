@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "156225267415",
+    "firebase_url": "https://kdrama-8f19e.firebaseio.com",
+    "project_id": "kdrama-8f19e",
+    "storage_bucket": "kdrama-8f19e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156225267415:android:d638a8fb3443f4f7c87292",
+        "android_client_info": {
+          "package_name": "com.chinesedrama.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156225267415-42qb24l71tfc6q0g2hl17gju69n2do0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGMilW1DaPezNErlBLt4verw6yBspUsec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156225267415-42qb24l71tfc6q0g2hl17gju69n2do0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156225267415:android:f20c0c28e68bcfeac87292",
+        "android_client_info": {
+          "package_name": "com.kdrama.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156225267415-42qb24l71tfc6q0g2hl17gju69n2do0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGMilW1DaPezNErlBLt4verw6yBspUsec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156225267415-42qb24l71tfc6q0g2hl17gju69n2do0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
