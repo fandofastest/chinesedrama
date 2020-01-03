@@ -226,7 +226,7 @@ public class SplashscreenActivity extends AppCompatActivity {
 //                    Toast.makeText(getContext(),"coba"+interadmob,Toast.LENGTH_LONG).show();
 
                     new GDPRChecker()
-                            .withContext(getContext())
+                            .withContext(SplashscreenActivity.this)
                             .withPrivacyUrl(Config.TERMS_URL) // your privacy url
                             .withPublisherIds(ApiResources.adMobPublisherId) // your admob account Publisher id
                             .withTestMode("9424DF76F06983D1392E609FC074596C") // remove this on real project
