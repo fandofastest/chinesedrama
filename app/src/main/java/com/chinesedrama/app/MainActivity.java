@@ -396,6 +396,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.dismiss();
                             finish();
+                            finishAffinity();
                             System.exit(0);
                         }
                     })
