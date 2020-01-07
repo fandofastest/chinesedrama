@@ -253,6 +253,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                             Intent intent=new Intent(MainActivity.this,SettingsActivity.class);
                             startActivity(intent);
                             MainActivity.this.finish();
+                        } else if (position==10){
+                            String url = "https://api.whatsapp.com/send?phone=+6281275941178&text=Please help, I have a Problem";
+                            Intent i = new Intent(Intent.ACTION_VIEW);
+                            i.setData(Uri.parse(url));
+                            startActivity(i);
                         }
                     }else {
                         if (position==6){
@@ -263,6 +268,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                             Intent intent=new Intent(MainActivity.this,SettingsActivity.class);
                             startActivity(intent);
                             MainActivity.this.finish();
+                        } else if (position==8){
+                            String url = "https://api.whatsapp.com/send?phone=+6281275941178&text=Please help, I have a Problem";
+                            Intent i = new Intent(Intent.ACTION_VIEW);
+                            i.setData(Uri.parse(url));
+                            startActivity(i);
                         }
                     }
 

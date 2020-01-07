@@ -52,6 +52,7 @@
         <item>Favorite</item>
         <item>Sign Out</item>
         <item>Settings</item>
+        <item>Contact US</item>
     </string-array>
 
     <string-array name="nav_item_image">
@@ -65,6 +66,8 @@
         <item>outline_favorite_border_24</item>
         <item>outline_lock_24</item>
         <item>outline_settings_24</item>
+        <item>ic_chat_black_24dp</item>
+
     </string-array>
 
     <string-array name="nav_item_name_2">
@@ -76,6 +79,8 @@
         <item>Country</item>
         <item>Login</item>
         <item>Settings</item>
+        <item>Contact US</item>
+
     </string-array>
 
     <string-array name="nav_item_image_2">
@@ -87,6 +92,8 @@
         <item>outline_outlined_flag_24</item>
         <item>outline_lock_24</item>
         <item>outline_settings_24</item>
+        <item>ic_chat_black_24dp</item>
+
     </string-array>
 
     <!-- Strings related to Settings -->
