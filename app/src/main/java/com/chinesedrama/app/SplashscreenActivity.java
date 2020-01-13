@@ -198,12 +198,14 @@ public class SplashscreenActivity extends AppCompatActivity {
                     ApiResources.startappid = jsonObject.getString("startappid");
                     ApiResources.startappstatus = jsonObject.getString("startappstatus");
 
-                    StartAppSDK.init(getContext(), ApiResources.startappid, true);
-                    StartAppSDK.setUserConsent (getContext(),
-                            "pas",
-                            System.currentTimeMillis(),
-                            true);
-                    StartAppAd.disableSplash();
+                    if (ApiResources.startappstatus.equals("1")){
+                        StartAppSDK.init(getContext(), ApiResources.startappid, true);
+                        StartAppSDK.setUserConsent (getContext(),
+                                "pas",
+                                System.currentTimeMillis(),
+                                true);
+                        StartAppAd.disableSplash();
+                    }
 
                 } catch (JSONException e) {
                     Log.e("json", "ERROR");
